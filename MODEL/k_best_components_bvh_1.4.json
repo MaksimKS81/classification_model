@@ -1,0 +1,189 @@
+{
+    "1": [
+        "left_shoulder_abduction", 
+        "right_shoulder_abduction",
+        "left_knee_flexion",
+        "right_knee_flexion"
+
+    ],
+    "10": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_hip_flexion",
+        "right_knee_flexion",
+        "left_shoulder_flexion",
+        "right_shoulder_flexion",
+        "mid_spine_rz"
+    ],
+    "11": [
+        "right_hip_flexion",
+        "right_knee_flexion",
+        "right_ankle_flexion",
+        "mid_spine_rx"
+
+    ],
+    "12": [
+        "left_hip_flexion",
+        "left_knee_flexion",
+        "left_ankle_flexion"
+
+    ],
+    "13": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_hip_flexion",
+        "mid_spine_rx",
+        "mid_spine_rz"
+    ],
+    "14": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_hip_flexion",
+        "mid_spine_rx",
+        "mid_spine_rz"
+    ],
+    "15": [
+        "left_shoulder_rotation",
+        "right_shoulder_rotation",
+        "left_hip_flexion",
+        "right_hip_flexion"
+    ],
+    "16": [
+        "left_shoulder_flexion",
+        "left_shoulder_abduction",
+        "left_hip_flexion",
+        "right_shoulder_flexion",
+        "right_shoulder_abduction",
+        "right_hip_flexion"
+
+    ],
+    "19": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_hip_flexion",
+        "spine_low_z"
+    ],
+    "2": [
+        "left_shoulder_abduction",
+        "right_shoulder_abduction",
+        "left_shoulder_horiz_abd",
+        "right_shoulder_horiz_abd"
+    ],
+    "3": [
+        "right_shoulder_flexion",
+        "right_shoulder_horiz_abd",
+        "left_shoulder_horiz_abd",
+        "left_shoulder_flexion",
+        "mid_spine_ry",
+        "mid_spine_rz"
+    ],
+    "45": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_hip_flexion"
+    ],
+    "50": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_hip_flexion",
+        "right_ankle_flexion",
+        "left_ankle_flexion"
+
+
+    ],
+    "51": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_hip_flexion",
+        "right_ankle_flexion",
+        "left_ankle_flexion"
+
+    ],
+    "6": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_hip_flexion"
+    ],
+    "7": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_hip_flexion",
+        "right_ankle_z",
+        "left_ankle_z"
+    ],
+    "9": [
+        "right_hip_flexion",
+        "right_knee_flexion",
+        "right_shoulder_flexion",
+        "left_shoulder_flexion"
+    ],
+    "136": [
+        "right_hip_adduction",
+        "right_ankle_y",
+        "right_ankle_z"
+    ],
+    "137": [
+
+        "left_hip_adduction",
+        "left_ankle_y",
+        "left_ankle_z"
+    ],
+    "146": [
+        "left_knee_flexion",
+        "left_hip_flexion",
+        "right_hip_flexion",
+        "right_knee_flexion"
+    ],
+    "151": [
+        "left_hip_adduction",
+        "left_hip_flexion",
+        "right_knee_flexion",
+        "right_ankle_flexion"
+    ],
+    "152": [
+        "right_hip_adduction",
+        "right_hip_flexion",
+        "left_knee_flexion",
+        "left_ankle_flexion"
+    ],
+    "155": [
+        "left_hip_flexion",
+        "right_hip_flexion",
+        "mid_spine_rx"
+
+    ],
+    "156": [
+        "right_hip_flexion",
+        "right_knee_flexion",
+        "right_shoulder_flexion",
+        "left_shoulder_flexion"
+    ],
+    "157": [
+        "left_knee_flexion",
+        "right_hip_flexion",
+        "right_knee_flexion",
+        "left_shoulder_flexion"
+    ],
+    "158": [
+        "right_knee_flexion",
+        "left_hip_flexion",
+        "left_knee_flexion",
+        "right_shoulder_flexion"
+    ],
+    "34": [
+        "right_shoulder_abduction",
+        "mid_spine_ry"
+    ],
+    "35": [
+        "left_shoulder_abduction",
+        "mid_spine_ry"
+    ]
+}
