@@ -1,0 +1,29 @@
+{
+    "features": [
+        "left_knee_flexion",
+        "right_knee_flexion",
+        "left_shoulder_flexion",
+        "left_shoulder_abduction",
+        "left_shoulder_rotation",
+        "right_shoulder_flexion",
+        "right_shoulder_abduction",
+        "right_shoulder_rotation",
+        "left_shoulder_horiz_abd",
+        "right_shoulder_horiz_abd",
+        "left_hip_flexion",
+        "right_hip_flexion",
+        "left_hip_adduction",
+        "right_hip_adduction",
+        "right_ankle_flexion",
+        "left_ankle_flexion",
+        "mid_spine_rx",
+        "mid_spine_ry",
+        "mid_spine_rz",
+        "spine_low_z",
+        "right_ankle_y",
+        "right_ankle_z",
+        "left_ankle_y",
+        "left_ankle_z"
+    ]
+    
+}
