@@ -64,7 +64,7 @@ with open('MODEL/' +  f'k_best_components_bvh_{ver}.json') as json_data:
     json_data.close()
 
 ####################################################################################
-@lru_cache(maxsize=100)
+#@lru_cache(maxsize=100)
 def process_data_kde(data, test_value):
     # Calculate the likelihood of the test value
     kde = gaussian_kde(data)
@@ -72,14 +72,14 @@ def process_data_kde(data, test_value):
 
     return {"likelihood": likelihood[0]*100.0}
 
-@lru_cache(maxsize=100)
+#@lru_cache(maxsize=100)
 def calc_dictance(data1, data2):
     data_df = pd.concat([data1, data2], axis=1, ignore_index=True)
     data_df = data_df.ffill()
 
     return  dtw.distance(list(data_df[data_df.columns[0]]), list(data_df[data_df.columns[1]]))
 
-@lru_cache(maxsize=100)
+#@lru_cache(maxsize=100)
 def compute_distance(args):
     key, tested_df = args
     temp_list = []
@@ -92,7 +92,7 @@ def compute_distance(args):
         temp_list.append(temp)
     return temp_list
 
-@lru_cache(maxsize=100)
+#@lru_cache(maxsize=100)
 def apply_decimator(signal, decimation_factor):
     if decimation_factor > 0.0:
         decimated_signal = decimate(signal, int(decimation_factor))
