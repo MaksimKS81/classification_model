@@ -212,12 +212,12 @@ def process_data():
 
 ####################################################################################
 @app.route('/process_json_decim', methods=['POST', 'GET'])
-@cache.cached(timeout=300) 
+#@cache.cached(timeout=300) 
 def process_decim():
 
     data = request.get_json()
 
-    mode = data.get('mode', '1')
+    mode = str(data.get('mode', '0'))
     multi_cpu = data.get('multi_cpu', '0')
     test_file_name = 'data_mode'
     if mode == 'link':
