@@ -8,6 +8,8 @@ from scipy.stats import gaussian_kde
 from scipy.signal import decimate
 from dtaidistance import dtw
 
+import gunicorn
+
 from multiprocessing import Pool, cpu_count
 
 from datetime import datetime
