@@ -1,5 +1,6 @@
 
 from flask import Flask, request, jsonify, send_from_directory, render_template
+from flask_caching import Cache
 import json
 import pickle
 import pandas as pd 
@@ -25,6 +26,10 @@ ver = '1.4'
 decimated_signals = True
 
 app = Flask(__name__, static_folder='static')
+
+app.config['CACHE_TYPE'] = 'simple'
+
+cache = Cache(app)
 
 with open('MODEL/' + 'feature_vector_result_1.4.pkl', 'rb') as f:
     feature_vector_result = pd.read_pickle(f)
@@ -108,6 +113,7 @@ def index():
     return render_template('endpoints.html')
 
 @app.route('/process_mle', methods=['GET', 'POST'])
+@cache.cached(timeout=300)
 def process_json():
     # Get JSON data from the request
     data = request.get_json()
@@ -165,6 +171,7 @@ def process_json():
 
 ####################################################################################
 @app.route('/process_random_record', methods=['POST', 'GET'])
+@cache.cached(timeout=300) 
 def process_data():
     test_file_name = request.args.get('test_file_name')
     print(test_file_name)
@@ -205,6 +212,7 @@ def process_data():
 
 ####################################################################################
 @app.route('/process_json_decim', methods=['POST', 'GET'])
+@cache.cached(timeout=300) 
 def process_decim():
 
     data = request.get_json()

@@ -20,7 +20,7 @@
                 <!-- Add more parameters here -->
             </ul>
         </li>            
-            <h2>/process_json_decim</h2>
+            <h2>./process_json_decim</h2>
             <p>Description of the /process_json_decim (Decimated tested and reference time-series) endpoint.</p>
             <h3>Parameters:</h3>
             <ul>
@@ -33,8 +33,22 @@
                 <li>
                     <strong>data:</strong> If server works in 'data' mode we read json file on client's side and send it as a paramiter.
                 </li>
-            <!-- Add more parameters here -->
-        </ul>
+            </ul>
+            <h3>Answer:</h3>
+            <ul>
+                <li>
+                    <strong>Processing time:</strong> Processing time in sec.
+                </li>
+                <li>
+                    <strong>Label:</strong> Record's label recived from model .
+                </li>
+                <li>
+                    <strong>N_CPU:</strong> Number of CPU cores used for processing.
+                </li>
+                <li>
+                    <strong>test_file_name:</strong> For 'link'mode it will be local file name in 'data' mode will be 'data_mode'.
+                <!-- Add more parameters here -->
+            </ul>
         <!-- Add more endpoints here -->
     </ul>
 </body>
